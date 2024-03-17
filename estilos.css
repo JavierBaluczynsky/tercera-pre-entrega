@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+.navbar-brand img{
+    height: 60px;
+}
+
+.header {
+    height: 700px;
+    width: auto;
+    background-image: url(./Imagenes/IMG-20220110-WA0051~2.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 15px #000;
+    padding: 100px 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 5px #000;
+    background-color: darkgray;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.parrafoh2{
+    margin: 0;
+    padding: 20px;
+    background-color: lightgray;
+    font-size: large;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px; 
+}
+
+.foto2{
+    height: 310px;
+}
+
+.derecha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px; 
+}
+
+img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.jumbotron2{
+    height: 100px;
+    background-position: center;
+    text-align: left;
+    font-weight: bold;
+}
+
+.jumbotron2 h2 p{
+    font-weight: bold;
+    text-shadow: 0 0 5px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    color: lightseagreen;
+    font-size: 24px;
+}
+
+.card p {
+    color: #666;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .card h2 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+}
+
+
+footer{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    /* border: 5px solid red; */
+}
+
+.logoft{
+    padding: 15px;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div p{
+    text-align: left;
+    color: #fff;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+footer div img{
+    color: #fff;
+}
+
+.copyright{
+    color: white !important;
+    text-align: center;
+    margin: 16px;
+}
+
+.politica{
+    display: inline-block;
+    text-align: right;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .redes {
+        flex-direction: column;
+    }
+}
+
+/* nosotros */
+
+.empleados-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.empleado {
+    width: calc(50% - 10px);
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.empleado img {
+    width: 50%;
+    height: auto;
+}
+
+/* Sitios */
+
+.col-md-6{
+    text-align: left;
+    padding: 15px;
+}
+
+/* Viajes */
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.foto {
+    flex: 1 1 auto;
+    margin-bottom: 10px;
+}
+
+.foto-grande {
+    flex-basis: calc(50% - 10px);
+    border: 2px;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+.foto-mediana {
+    flex-basis: calc(33.33% - 10px);
+    border: 2px;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+.foto-pequena {
+    flex-basis: calc(25% - 10px);
+    border: 2px;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+.foto-pequena:hover{
+    filter: grayscale(100%);
+}
+
+@media (max-width: 768px) {
+    .foto {
+        flex-basis: calc(50% - 10px);
+        border: 2px;
+        padding: 5px;
+    }
+}
+
+.titulo {
+    font-size: 2em;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 576px) {
+    .titulo {
+        font-size: 1.2em;
+    }
+}
+
+/* Contacto */
+
+.contacto-titulo{
+    padding: 5px;
+    text-align: center;
+}
+
+

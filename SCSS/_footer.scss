@@ -1,0 +1,45 @@
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+}
+
+.logoft {
+    padding: 15px;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    div p {
+        text-align: left;
+        color: #fff;
+    }
+
+    ul li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.copyright {
+    color: white !important;
+    text-align: center;
+    margin: 16px;
+}
+
+.politica {
+    display: inline-block;
+    text-align: right;
+    color: #fff;
+}

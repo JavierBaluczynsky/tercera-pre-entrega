@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+    .card {
+        padding: 15px;
+        margin: 15px;
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .redes {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .foto {
+        flex-basis: calc(50% - 10px);
+        border: 2px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 576px) {
+    .titulo {
+        font-size: 1.2em;
+    }
+}

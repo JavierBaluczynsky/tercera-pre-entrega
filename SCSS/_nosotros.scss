@@ -1,0 +1,19 @@
+/* nosotros */
+
+.empleados-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.empleado {
+    width: calc(50% - 10px);
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+
+    img {
+        width: 50%;
+        height: auto;
+    }
+}

@@ -1,0 +1,24 @@
+/* Viajes */
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.foto {
+    flex: 1 1 auto;
+    margin-bottom: 10px;
+}
+
+.foto-pequena {
+    flex-basis: calc(25% - 10px);
+    border: 2px;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+.titulo {
+    font-size: 2em;
+    text-align: center;
+}
