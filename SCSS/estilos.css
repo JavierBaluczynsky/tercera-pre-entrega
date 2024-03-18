@@ -9,7 +9,7 @@
 .header {
   height: 700px;
   width: auto;
-  background-image: url(./Imagenes/IMG-20220110-WA0051~2.jpeg);
+  background-image: url(../Imagenes/IMG-20220110-WA0051~2.jpeg);
   background-size: cover;
   background-position: center;
   color: white;
@@ -88,7 +88,7 @@ img {
   margin-bottom: 20px;
 }
 .card h2 {
-  color: lightseagreen;
+  color: #20b2aa;
   font-size: 24px;
 }
 .card p {
@@ -101,6 +101,16 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.col-md-4 {
+  filter: grayscale(100%);
+}
+
+.col-md-4:hover {
+  filter: grayscale(0%);
+  transform: scale(1.02);
+  transition: all 1.2s;
 }
 
 .empleado {
@@ -137,6 +147,12 @@ img {
   border: 2px;
   padding: 5px;
   border: 5px solid black;
+  filter: grayscale(100%);
+  transition: all 1.2s;
+}
+
+.foto-pequena:hover {
+  filter: grayscale(0%);
 }
 
 .titulo {
@@ -202,6 +218,10 @@ footer {
 .redes {
   display: flex;
   justify-content: space-evenly;
+}
+
+.footer div img {
+  color: #fff;
 }
 
 footer div p {

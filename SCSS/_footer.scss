@@ -1,3 +1,9 @@
+@mixin anclas{
+    text-decoration: none;
+    color: #fff;
+}
+
+
 footer {
     bottom: 0;
     width: 100%;
@@ -14,6 +20,12 @@ footer {
     justify-content: space-evenly;
 }
 
+.footer {
+    div img{
+        color: #fff;
+    }
+}
+
 footer {
     div p {
         text-align: left;
@@ -27,8 +39,7 @@ footer {
     }
 
     a {
-        text-decoration: none;
-        color: #fff;
+        @include anclas;
     }
 }
 
