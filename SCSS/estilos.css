@@ -23,6 +23,13 @@
   margin: 0 auto;
 }
 
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
 h2 {
   color: white;
   text-align: center;
@@ -204,20 +211,37 @@ img {
     font-size: 1.2em;
   }
 }
+@media screen and (max-width: 320px) {
+  footer {
+    width: 100%; /* Ancho del footer al 100% del viewport */
+  }
+}
 footer {
   bottom: 0;
   width: 100%;
+  height: 250px;
+  color: #fff;
   text-align: center;
   background-color: #333;
 }
 
 .logoft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 15px;
+}
+
+.logoft img {
+  width: 24px;
+  margin-right: 10px;
 }
 
 .redes {
   display: flex;
   justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
 }
 
 .footer div img {
@@ -248,4 +272,20 @@ footer a {
   display: inline-block;
   text-align: right;
   color: #fff;
+}
+
+.redes li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes li img {
+  width: 24px;
+  height: 24px;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+.margen {
+  background-color: #333;
 }/*# sourceMappingURL=estilos.css.map */
