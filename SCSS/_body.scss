@@ -1,15 +1,16 @@
-.body{
+body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    background-image: linear-gradient(to bottom, #261ab1, #0044bb, #0059b3, #0068a1, #00748e, #448194, #678e9b, #869ba2, #a5b2ba, #c4cad1, #e2e3e7, #fdfdfd);
 }
 
 h2 {
     color: white;
     text-align: center;
     text-shadow: 0 0 5px #000;
-    background-color: darkgray;
+    background-color: lightblue;
     padding: 20px;
     font-weight: bold;
 }
@@ -17,7 +18,8 @@ h2 {
 .parrafoh2 {
     margin: 0;
     padding: 20px;
-    background-color: lightgray;
+    text-shadow: white 0px 0px 20px;
+    // background-color: lightblue;
     font-size: large;
     text-align: center;
 }
